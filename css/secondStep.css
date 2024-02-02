@@ -1,0 +1,428 @@
+@font-face {
+  font-family: "s";
+  src: url(../fonts/Segoe\ UI.ttf);
+}
+
+@font-face {
+  font-family: "philosopher";
+  src: url(../fonts/Philosopher-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-lg {
+  max-width: 1129px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 456px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f4f8fa;
+}
+
+header {
+  background-color: #fff;
+}
+
+input {
+  outline: none;
+}
+input:hover {
+  border: 1px solid #01bab3;
+}
+.header-start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: philosopher;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 52px;
+}
+.header-right1 {
+  display: flex;
+  gap: 24px;
+}
+.right1 {
+  border: 1px solid #d9d9d9;
+  padding: 2px 9px;
+}
+
+.main-start {
+  border-radius: 10px;
+  background: var(--White, #fff);
+  box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04),
+    0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+  width: 496px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+.hero {
+  text-align: center;
+  margin-top: 24px;
+}
+.hero img {
+  padding-top: 40px;
+}
+
+.hero h1 {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: "Segoe UI";
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 24px;
+}
+.hero-fix {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  padding-top: 16px;
+}
+
+.hero-fix h2 {
+  color: #444150;
+  font-family: philosopher;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.hero-fix a {
+  color: var(--01-bab-3, #01bab3);
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+  border-bottom: 1.3px solid #01bab3;
+}
+
+.email-form {
+  padding-top: 36px;
+}
+
+.email-form p {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.email-form input {
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  width: 414.535px;
+  height: 45.277px;
+  flex-shrink: 0;
+  padding-left: 16px;
+}
+.phone-form {
+  padding-top: 23px;
+}
+.phone-form p {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.phone-form input {
+  width: 414.535px;
+  height: 45.277px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding-left: 14px;
+}
+
+.country-form p {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.country-form select {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  width: 200px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding-left: 16px;
+}
+
+.city-form p {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.city-form input {
+  width: 200px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: var(--ffffff, #fff);
+  padding-left: 16px;
+}
+.country-city {
+  display: flex;
+  gap: 16px;
+  padding-top: 23px;
+}
+.password-img {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.password-img p {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.password-form input {
+  width: 414.535px;
+  height: 45.277px;
+  flex-shrink: 0;
+  padding-left: 16px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+
+.password-all {
+  padding-top: 18px;
+}
+
+.password-form img {
+  position: absolute;
+  position: relative;
+  top: -36px;
+  left: 380px;
+}
+
+.password-form {
+  position: relative;
+}
+
+#togglePassword {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}
+
+.confirm-form {
+  padding-top: 23px;
+}
+
+.confirm-form p {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.confirm-form input {
+  width: 414.535px;
+  height: 45.277px;
+  border-radius: 6px;
+  border: 1px solid var(--fb-3838, #fb3838);
+  background: #fff;
+  padding-left: 16px;
+}
+
+.button-countion {
+  display: flex;
+  justify-content: center;
+}
+
+.button-countion button {
+  border-radius: 6px;
+  background: var(--01-bab-3, #01bab3);
+  width: 414.535px;
+  height: 51.183px;
+  border: none;
+  margin-top: 87px;
+}
+
+.button-countion a {
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  padding-top: 23.14px;
+}
+.text a {
+  color: #778699;
+  text-align: center;
+  font-family: philosopher;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  width: 366.704px;
+  height: 46.917px;
+}
+
+.bars {
+  position: relative;
+  z-index: 10;
+  width: 45px;
+  height: 45px;
+  display: none;
+}
+
+.burger {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  box-shadow: 0 0 10px 2px grey;
+  transform: translateX(120%);
+  transition: all 0.5s ease-in-out;
+  background-color: transparent;
+}
+.hideBurger {
+  background-color: #fff;
+  transform: translateX(0%);
+  background-color: #043e51;
+}
+.burger-list {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.burger-item {
+  padding: 8px 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.burger-item-link {
+  font-size: 36px;
+  color: #fff;
+}
+
+.burger-btn {
+  width: 100px;
+  margin: 9px 0;
+  margin-left: 5px;
+  border: 1px solid #d9d9d9;
+  padding: 2px 9px;
+}
+
+@media (max-width: 710px) {
+  .header-right {
+    display: none;
+  }
+  .bars {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 505px) {
+  .main-start {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .button-countion button {
+    max-width: 200px;
+  }
+  .email-form input {
+    max-width: 300px;
+  }
+  .phone-form input {
+    max-width: 300px;
+  }
+  .country-city {
+    flex-direction: column;
+  }
+  .password-form {
+    margin: 0 auto;
+  }
+  .password-form input {
+    max-width: 300px;
+  }
+  #togglePassword {
+    right: 50px;
+  }
+  .confirm-form input {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-start {
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

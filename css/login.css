@@ -1,0 +1,266 @@
+@font-face {
+  font-family: "s";
+  src: url(../fonts/Segoe\ UI.ttf);
+}
+
+@font-face {
+  font-family: "philosopher";
+  src: url(../fonts/Philosopher-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-lg {
+  max-width: 1129px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 454px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f4f8fa;
+}
+
+header {
+  background-color: #fff;
+}
+
+input {
+  outline: none;
+}
+input:hover {
+  border: 1px solid #01bab3;
+}
+.header-start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: philosopher;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 52px;
+}
+.header-right1 {
+  display: flex;
+  gap: 24px;
+}
+.right1 {
+  border: 1px solid #d9d9d9;
+  padding: 2px 9px;
+}
+
+.main-start {
+  border-radius: 10px;
+  background: var(--White, #fff);
+  box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04),
+    0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+  width: 496px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+.hero {
+  text-align: center;
+  margin-top: 24px;
+}
+.hero img {
+  padding-top: 40px;
+}
+
+.hero h1 {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: "Segoe UI";
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 24px;
+}
+.hero-fix {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  padding-top: 16px;
+}
+
+.hero-fix h2 {
+  color: #444150;
+  font-family: philosopher;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.hero-fix a {
+  color: var(--01-bab-3, #01bab3);
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+  border-bottom: 1.3px solid #01bab3;
+}
+
+.email-form {
+  padding-top: 48.35px;
+}
+
+.email-form p {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.email-form input {
+  width: 414.535px;
+  height: 45.277px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding-left: 16px;
+  color: #444150;
+  font-family: philosopher;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.password-img {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.password-img p {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.password-form input {
+  width: 414.535px;
+  height: 45.277px;
+  flex-shrink: 0;
+  padding-left: 16px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+.password-form img {
+  position: absolute;
+  position: relative;
+  top: -36px;
+  left: 380px;
+}
+
+.password-form {
+  position: relative;
+}
+
+#togglePassword {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}
+
+.password-all {
+  padding-top: 30.54px;
+}
+
+.button-countion button {
+  border-radius: 4px;
+  background: var(--01-bab-3, #01bab3);
+  width: 416px;
+  height: 48px;
+  border: none;
+  margin-top: 36px;
+}
+
+.button-countion a {
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+@media (max-width: 768px) {
+  .header-right {
+    display: none;
+  }
+}
+@media (max-width: 505px) {
+  .main-start {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .button-countion button {
+    max-width: 200px;
+  }
+  .email-form input {
+    max-width: 300px;
+  }
+  .phone-form input {
+    max-width: 300px;
+  }
+  .country-city {
+    flex-direction: column;
+  }
+  .password-form {
+    margin: 0 auto;
+  }
+  .password-form input {
+    max-width: 300px;
+  }
+  #togglePassword {
+    right: 50px;
+  }
+  .confirm-form input {
+    max-width: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .main-start {
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

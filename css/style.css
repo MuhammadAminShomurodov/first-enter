@@ -1,0 +1,463 @@
+@font-face {
+  font-family: "s";
+  src: url(../fonts/Segoe\ UI.ttf);
+}
+
+@font-face {
+  font-family: "philosopher";
+  src: url(../fonts/Philosopher-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-lg {
+  max-width: 1129px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 454px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f4f8fa;
+}
+
+header {
+  background-color: #fff;
+}
+
+/* HEADER-START */
+.header-start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: philosopher;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 52px;
+}
+.header-right1 {
+  display: flex;
+  gap: 24px;
+}
+.right1 {
+  border: 1px solid #d9d9d9;
+  padding: 2px 9px;
+}
+
+.main-start {
+  border-radius: 10px;
+  background: var(--White, #fff);
+  box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04),
+    0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+  width: 496px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.hero {
+  text-align: center;
+  margin-top: 24px;
+}
+.hero img {
+  padding-top: 40px;
+}
+
+.hero h1 {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: "Segoe UI";
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 24px;
+}
+.hero-fix {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  padding-top: 16px;
+}
+
+.hero-fix h2 {
+  color: #444150;
+  font-family: philosopher;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.hero-fix a {
+  color: var(--01-bab-3, #01bab3);
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+  border-bottom: 1.3px solid #01bab3;
+}
+
+.form-start {
+  justify-content: center;
+  display: flex;
+  padding-top: 56px;
+  gap: 16px;
+}
+
+.form-start label {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.form-start input {
+  color: #444150;
+  font-family: philosopher;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+
+.form-firstname input {
+  padding: 9px 0;
+  padding-left: 16px;
+  width: 200px;
+}
+
+.form-lastname input {
+  padding: 9px 0;
+  padding-left: 16px;
+  width: 200px;
+}
+
+.birth-date {
+  padding-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.birth-date p {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.birth-form input {
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding: 9px 0;
+  font-family: philosopher;
+  color: #444150;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  width: 416px;
+  padding-left: 16px;
+  padding-right: 12px;
+}
+.gender-input {
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  background: var(--ffffff, #fff);
+}
+
+.geneder-form {
+  padding-top: 24px;
+}
+
+.all-gender {
+  display: flex;
+  gap: 16px;
+}
+
+.gender-input {
+  width: 200px;
+  padding: 9px 0;
+  padding-left: 16px;
+}
+.geneder-form p {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.gender-input label {
+  padding-left: 16px;
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.gender-male {
+  width: 200px;
+  padding: 9px 0;
+  padding-left: 16px;
+}
+
+.gender-male label {
+  color: #444150;
+  font-family: "Segoe UI";
+  padding-left: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.gender-male {
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  background: var(--ffffff, #fff);
+}
+.gender-input:hover {
+  border: 1px solid #01bab3;
+}
+
+.gender-male:hover {
+  border: 1px solid #01bab3;
+}
+
+.skype-form {
+  padding-top: 24px;
+}
+
+.skype-form input {
+  width: 416px;
+  padding: 9px 0;
+  padding-left: 16px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+
+.skype-form p {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.promo-form {
+  padding-top: 24px;
+}
+
+.promo-form input {
+  width: 416px;
+
+  padding: 9px 0;
+  padding-left: 16px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+
+.promo-form p {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+input {
+  outline: none;
+}
+input:hover {
+  border: 1px solid #01bab3;
+}
+
+.button-countion button {
+  border-radius: 4px;
+  background: var(--01-bab-3, #01bab3);
+  width: 416px;
+  height: 48px;
+  border: none;
+  margin-top: 36px;
+}
+
+.button-countion a {
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+p a {
+  color: rgba(0, 0, 0, 0.65);
+  text-align: center;
+  font-family: philospher;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+
+.text {
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 25px;
+}
+
+.bars {
+  position: relative;
+  z-index: 10;
+  width: 45px;
+  height: 45px;
+  display: none;
+}
+
+.burger {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  box-shadow: 0 0 10px 2px grey;
+  transform: translateX(120%);
+  transition: all 0.5s ease-in-out;
+  background-color: transparent;
+}
+.hideBurger {
+  background-color: #fff;
+  transform: translateX(0%);
+  background-color: #043e51;
+}
+.burger-list {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.burger-item {
+  border-bottom: 3px solid black;
+  padding: 8px 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.burger-item-link {
+  font-size: 36px;
+  color: #fff;
+}
+
+.burger-btn {
+  padding: 10px 30px;
+  font-size: 36px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.8px; /* 160% */
+  border-radius: 25px;
+  background: #145e76;
+  padding: 14px 34px 15px 35px;
+  border: none;
+}
+
+@media (max-width: 710px) {
+  .header-right {
+    display: none;
+  }
+  .bars {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 505px) {
+  .main-start {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .form-start {
+    flex-direction: column;
+    text-align: center;
+  }
+  .form-lastname {
+    text-align: center;
+  }
+
+  .birth-date input {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .skype-form input {
+    max-width: 200px;
+  }
+
+  .promo-form input {
+    max-width: 200px;
+  }
+
+  .geneder-form {
+    flex-direction: column;
+  }
+  .button-countion button {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-start {
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
